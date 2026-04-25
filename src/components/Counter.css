@@ -1,0 +1,30 @@
+/* src/components/Counter.css */
+.counter-container {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  padding: 10px 20px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+}
+
+.counter-label {
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
+}
+
+.counter-value {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'FGT', monospace;
+  background: linear-gradient(135deg, #c084fc, #f472b6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
