@@ -1,7 +1,6 @@
 {
-  "name": "gaming-server",
+  "name": "spectra-server",
   "version": "1.0.0",
-  "description": "Socket.io server for gaming platform",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
