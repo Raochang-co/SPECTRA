@@ -124,4 +124,6 @@
 }
 
 .slot-details h3 {
-  margin-bottom
+  margin-bottom: 16px;
+  color: rgba(255, 255, 255, 0.8);
+}
