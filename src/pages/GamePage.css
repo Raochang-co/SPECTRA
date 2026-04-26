@@ -1,8 +1,4 @@
 /* src/pages/GamePage.css */
-@font-face {
-  font-family: 'FGT';
-  src: url('/fonts/FGT.ttf') format('truetype');
-}
 
 * {
   margin: 0;
