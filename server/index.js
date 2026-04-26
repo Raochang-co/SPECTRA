@@ -307,3 +307,13 @@ const PORT = process.env.PORT || 3001;
 server.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
+// Allow requests from same domain
+const io = socketIo(server, {
+  cors: {
+    origin: process.env.NODE_ENV === 'production' 
+      ? false  // Same origin in production
+      : "http://localhost:3000",
+    methods: ["GET", "POST"],
+    credentials: true
+  }
+});
